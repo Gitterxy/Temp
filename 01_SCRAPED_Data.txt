@@ -2,18 +2,19 @@
 ├── 00_Scraped_Data_LOGS
 ├── 00_Scraped_Data_REPORTS
 ├── 01_Scraped_Data_RAW
-│   ├── 00_DATA_LOG
-│   ├── 00_DATA_REPORT
+│   ├── 00_Raw_Data_LOGS
+│   ├── 00_Raw_Data_REPORTS
 │   ├── 00_UNFILTERED_Raw_Scraped_Data
-│   │   └── 00_Logs
+│   │   ├── 00_Unfiltered_Data_LOGS
+│   │   └── 00_Unfiltered_Data_REPORTS
 │   ├── 02_Ad_Intelligence
-│   │   ├── 00_Logs
+│   │   ├── 00_Ad_Intelligence_LOGS
 │   │   ├── 01_Google_Ads
 │   │   │   └── 00_Logs
 │   │   └── 02_Facebook_Ads
 │   │       └── 00_Logs
 │   ├── 03_Backlinks
-│   │   ├── 00_Logs
+│   │   ├── 00_Backlinks_LOGS
 │   │   ├── 01_New_Backlinks
 │   │   │   └── 00_Logs
 │   │   ├── 02_Lost_Backlinks
@@ -21,7 +22,7 @@
 │   │   └── 03_Toxic_Backlinks
 │   │       └── 00_Logs
 │   ├── 04_Citations_and_Business_Listings
-│   │   ├── 00_Logs
+│   │   ├── 00_Citations_and_Business_Listings_LOGS
 │   │   ├── 01_Google_My_Business
 │   │   │   └── 00_Logs
 │   │   ├── 02_Yelp
@@ -29,7 +30,7 @@
 │   │   └── 03_Other_Directories
 │   │       └── 00_Logs
 │   ├── 05_Content
-│   │   ├── 00_Logs
+│   │   ├── 00_Content_LOGS
 │   │   ├── 01_Product_Pages
 │   │   │   └── 00_Logs
 │   │   ├── 02_Service_Pages
@@ -37,7 +38,7 @@
 │   │   └── 03_Blogs
 │   │       └── 00_Logs
 │   ├── 06_Customer_Reviews
-│   │   ├── 00_Logs
+│   │   ├── 00_Customer_Reviews_LOGS
 │   │   ├── 01_Google_Reviews
 │   │   │   └── 00_Logs
 │   │   ├── 02_Yelp_Reviews
@@ -45,17 +46,17 @@
 │   │   └── 03_BBB_Reviews
 │   │       └── 00_Logs
 │   ├── 07_E-E-A-T
-│   │   └── 00_Logs
+│   │   └── 00_E-E-A-T_LOGS
 │   ├── 08_Industry_and_Market_Trends
-│   │   └── 00_Logs
+│   │   └── 00_Industry_and_Market_Trends_LOGS
 │   ├── 09_Keywords
-│   │   ├── 00_Logs
+│   │   ├── 00_Keywords_LOGS
 │   │   ├── 01_Primary_Keywords
 │   │   │   └── 00_Logs
 │   │   └── 02_Long_Tail_Keywords
 │   │       └── 00_Logs
 │   ├── 10_Local_SEO
-│   │   ├── 00_Logs
+│   │   ├── 00_Local_SEO_LOGS
 │   │   ├── 01_Google_My_Business
 │   │   │   └── 00_Logs
 │   │   ├── 02_Local_Citations
@@ -63,13 +64,13 @@
 │   │   └── 03_NAP_Consistency
 │   │       └── 00_Logs
 │   ├── 11_PPC_Ads
-│   │   ├── 00_Logs
+│   │   ├── 00_PPC_Ads_LOGS
 │   │   ├── 01_Google_Ads
 │   │   │   └── 00_Logs
 │   │   └── 02_Facebook_Ads
 │   │       └── 00_Logs
 │   ├── 12_Review_Sentiment_Analysis
-│   │   ├── 00_Logs
+│   │   ├── 00_Review_Sentiment_Analysis_LOGS
 │   │   ├── 01_Positive
 │   │   │   └── 00_Logs
 │   │   ├── 02_Neutral
@@ -77,7 +78,7 @@
 │   │   └── 03_Negative
 │   │       └── 00_Logs
 │   ├── 13_SERP
-│   │   ├── 00_Logs
+│   │   ├── 00_SERP_LOGS
 │   │   ├── 01_Rank_Fluctuations_vs_Algorithm_Updates
 │   │   │   └── 00_Logs
 │   │   ├── 02_Google_Search_Console_vs_Real_Rankings
@@ -89,7 +90,7 @@
 │   │   └── 05_SERP_Feature_Changes_vs_Organic_Performance
 │   │       └── 00_Logs
 │   ├── 14_Schema_and_Structured_Data
-│   │   ├── 00_Logs
+│   │   ├── 00_Schema_and_Structured_Data_LOGS
 │   │   ├── 01_Product_Schema
 │   │   │   └── 00_Logs
 │   │   ├── 02_HowTo_Schema
@@ -97,7 +98,7 @@
 │   │   └── 03_FAQ_Schema
 │   │       └── 00_Logs
 │   ├── 15_Search_Engine_Data
-│   │   ├── 00_Logs
+│   │   ├── 00_Search_Engine_Data_LOGS
 │   │   ├── 01_Google_Search_Console
 │   │   │   └── 00_Logs
 │   │   ├── 02_Bing_Webmaster_Tools
@@ -105,7 +106,7 @@
 │   │   └── 03_Yandex_Search_Data
 │   │       └── 00_Logs
 │   ├── 16_Social_Media
-│   │   ├── 00_Logs
+│   │   ├── 00_Social_Media_LOGS
 │   │   ├── 01_Instagram
 │   │   │   └── 00_Logs
 │   │   ├── 02_Facebook
@@ -118,7 +119,7 @@
 │   │   └── 05_LinkedIn
 │   │       └── 00_Logs
 │   ├── 17_Technical_SEO
-│   │   ├── 00_Logs
+│   │   ├── 00_Technical_SEO_LOGS
 │   │   ├── 01_Core_Web_Vitals
 │   │   │   └── 00_Logs
 │   │   ├── 02_Indexing
@@ -126,7 +127,7 @@
 │   │   └── 03_JavaScript_SEO
 │   │       └── 00_Logs
 │   ├── 18_Traffic_and_User_Behavior
-│   │   ├── 00_Logs
+│   │   ├── 00_Traffic_and_User_Behavior_LOGS
 │   │   ├── 01_Direct_Traffic
 │   │   │   └── 00_Logs
 │   │   ├── 02_Organic_Traffic
@@ -134,7 +135,7 @@
 │   │   └── 03_Referral_Traffic
 │   │       └── 00_Logs
 │   └── 19_UX_UI_Interaction
-│       ├── 00_Logs
+│       ├── 00_UX_UI_Interaction_LOGS
 │       ├── 01_A_B_Tests
 │       │   └── 00_Logs
 │       ├── 02_Bounce_Rate
@@ -154,16 +155,16 @@
 │       └── 09_User_Engagement
 │           └── 00_Logs
 ├── 02_Scraped_Data_PRE-PROCESSED
-│   ├── 00_DATA_LOG
-│   ├── 00_DATA_REPORT
+│   ├── 00_Pre-Processed_Data_LOGS
+│   ├── 00_Pre-Processed_Data_REPORTS
 │   ├── 02_Ad_Intelligence
-│   │   ├── 00_Logs
+│   │   ├── 00_Ad_Intelligence_LOGS
 │   │   ├── 01_Google_Ads
 │   │   │   └── 00_Logs
 │   │   └── 02_Facebook_Ads
 │   │       └── 00_Logs
 │   ├── 03_Backlinks
-│   │   ├── 00_Logs
+│   │   ├── 00_Backlinks_LOGS
 │   │   ├── 01_New_Backlinks
 │   │   │   └── 00_Logs
 │   │   ├── 02_Lost_Backlinks
@@ -171,7 +172,7 @@
 │   │   └── 03_Toxic_Backlinks
 │   │       └── 00_Logs
 │   ├── 04_Citations_and_Business_Listings
-│   │   ├── 00_Logs
+│   │   ├── 00_Citations_and_Business_Listings_LOGS
 │   │   ├── 01_Google_My_Business
 │   │   │   └── 00_Logs
 │   │   ├── 02_Yelp
@@ -179,7 +180,7 @@
 │   │   └── 03_Other_Directories
 │   │       └── 00_Logs
 │   ├── 05_Content
-│   │   ├── 00_Logs
+│   │   ├── 00_Content_LOGS
 │   │   ├── 01_Product_Pages
 │   │   │   └── 00_Logs
 │   │   ├── 02_Service_Pages
@@ -187,7 +188,7 @@
 │   │   └── 03_Blogs
 │   │       └── 00_Logs
 │   ├── 06_Customer_Reviews
-│   │   ├── 00_Logs
+│   │   ├── 00_Customer_Reviews_LOGS
 │   │   ├── 01_Google_Reviews
 │   │   │   └── 00_Logs
 │   │   ├── 02_Yelp_Reviews
@@ -195,17 +196,17 @@
 │   │   └── 03_BBB_Reviews
 │   │       └── 00_Logs
 │   ├── 07_E-E-A-T
-│   │   └── 00_Logs
+│   │   └── 00_E-E-A-T_LOGS
 │   ├── 08_Industry_and_Market_Trends
-│   │   └── 00_Logs
+│   │   └── 00_Industry_and_Market_Trends_LOGS
 │   ├── 09_Keywords
-│   │   ├── 00_Logs
+│   │   ├── 00_Keywords_LOGS
 │   │   ├── 01_Primary_Keywords
 │   │   │   └── 00_Logs
 │   │   └── 02_Long_Tail_Keywords
 │   │       └── 00_Logs
 │   ├── 10_Local_SEO
-│   │   ├── 00_Logs
+│   │   ├── 00_Local_SEO_LOGS
 │   │   ├── 01_Google_My_Business
 │   │   │   └── 00_Logs
 │   │   ├── 02_Local_Citations
@@ -213,23 +214,33 @@
 │   │   └── 03_NAP_Consistency
 │   │       └── 00_Logs
 │   ├── 11_PPC_Ads
-│   │   ├── 00_Logs
+│   │   ├── 00_PPC_Ads_LOGS
 │   │   ├── 01_Google_Ads
 │   │   │   └── 00_Logs
 │   │   └── 02_Facebook_Ads
 │   │       └── 00_Logs
 │   ├── 12_Review_Sentiment_Analysis
-│   │   ├── 00_Logs
-│   │   ├── 01_Negative
+│   │   ├── 00_Review_Sentiment_Analysis_LOGS
+│   │   ├── 01_Positive
 │   │   │   └── 00_Logs
 │   │   ├── 02_Neutral
 │   │   │   └── 00_Logs
-│   │   └── 03_Positive
+│   │   └── 03_Negative
 │   │       └── 00_Logs
 │   ├── 13_SERP
-│   │   └── 00_Logs
+│   │   ├── 00_SERP_LOGS
+│   │   ├── 01_Rank_Fluctuations_vs_Algorithm_Updates
+│   │   │   └── 00_Logs
+│   │   ├── 02_Google_Search_Console_vs_Real_Rankings
+│   │   │   └── 00_Logs
+│   │   ├── 03_Featured_Snippets_vs_Organic_CTR
+│   │   │   └── 00_Logs
+│   │   ├── 04_Zero_Click_vs_Click-Through_Rates
+│   │   │   └── 00_Logs
+│   │   └── 05_SERP_Feature_Changes_vs_Organic_Performance
+│   │       └── 00_Logs
 │   ├── 14_Schema_and_Structured_Data
-│   │   ├── 00_Logs
+│   │   ├── 00_Schema_and_Structured_Data_LOGS
 │   │   ├── 01_Product_Schema
 │   │   │   └── 00_Logs
 │   │   ├── 02_HowTo_Schema
@@ -237,7 +248,7 @@
 │   │   └── 03_FAQ_Schema
 │   │       └── 00_Logs
 │   ├── 15_Search_Engine_Data
-│   │   ├── 00_Logs
+│   │   ├── 00_Search_Engine_Data_LOGS
 │   │   ├── 01_Google_Search_Console
 │   │   │   └── 00_Logs
 │   │   ├── 02_Bing_Webmaster_Tools
@@ -245,7 +256,7 @@
 │   │   └── 03_Yandex_Search_Data
 │   │       └── 00_Logs
 │   ├── 16_Social_Media
-│   │   ├── 00_Logs
+│   │   ├── 00_Social_Media_LOGS
 │   │   ├── 01_Instagram
 │   │   │   └── 00_Logs
 │   │   ├── 02_Facebook
@@ -253,11 +264,12 @@
 │   │   ├── 03_TikTok
 │   │   │   └── 00_Logs
 │   │   ├── 04_Twitter_X
-│   │   │   └── 00_Logs
+│   │   │   ├── 00_Logs
+│   │   │   └── 01_Twitter_X_Share_vs_Rank_Impact
 │   │   └── 05_LinkedIn
 │   │       └── 00_Logs
 │   ├── 17_Technical_SEO
-│   │   ├── 00_Logs
+│   │   ├── 00_Technical_SEO_LOGS
 │   │   ├── 01_Core_Web_Vitals
 │   │   │   └── 00_Logs
 │   │   ├── 02_Indexing
@@ -265,7 +277,7 @@
 │   │   └── 03_JavaScript_SEO
 │   │       └── 00_Logs
 │   ├── 18_Traffic_and_User_Behavior
-│   │   ├── 00_Logs
+│   │   ├── 00_Traffic_and_User_Behavior_LOGS
 │   │   ├── 01_Direct_Traffic
 │   │   │   └── 00_Logs
 │   │   ├── 02_Organic_Traffic
@@ -273,7 +285,7 @@
 │   │   └── 03_Referral_Traffic
 │   │       └── 00_Logs
 │   └── 19_UX_UI_Interaction
-│       ├── 00_Logs
+│       ├── 00_UX_UI_Interaction_LOGS
 │       ├── 01_A_B_Tests
 │       │   └── 00_Logs
 │       ├── 02_Bounce_Rate
@@ -21441,4 +21453,4 @@
         ├── 05_Mobile_Friendliness_vs_Indexing_Speed
         └── 06_Orphan_Page_Detection_vs_Internal_Linking
 
-21441 directories, 1 file
+21453 directories, 1 file
